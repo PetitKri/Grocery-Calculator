@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <div class="container">
+        <h1>Share the shopping costs</h1>
+        <span>$
+            <input id="bill" type="text" placeholder="Bill">
+        </span>
+        <span>#<input id="people" type="text" placeholder="Number of people?"></span>
+        <span>$<input id="parking" type="text" placeholder="Parking cost"></span>
+        <button id="btn">Calculate</button>
+
+        <div class="totalAmount">
+            <div class="billSplit">
+                <span>$</span>
+                <span class="dividedBill"></span>
+                <span>per person</span>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
